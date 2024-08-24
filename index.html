@@ -310,7 +310,7 @@
     </div>
   </section>
 
-  <!-- input fild section -->
+  <!-- input field section -->
 
   <section class="bg-bg-img bg-cover bg-no-repeat">
     <div class="py-8 lg:py-20 container mx-auto space-y-8 p-5 lg:p-0">
@@ -332,7 +332,7 @@
             
         </div>
         <!-- triangle -->
-        <textarea placeholder="Write your message here" class="rounded-3xl w-full mt-7 h-[200px]  text-[#A0A0A0] p-5"></textarea>
+        <textarea placeholder="Write your message here" class="textarea  rounded-3xl w-full mt-7 h-[200px]  text-[#A0A0A0] p-5"></textarea>
         <!-- button -->
         <a class="btn bg-light-green rounded-full md:text-xl w-full mt-8 font-extrabold">Send Mail<i class="-rotate-45 rounded-full bg-black p-3 md:p-2 text-white fa-solid fa-arrow-right"></i></a>
        </div>
@@ -348,84 +348,38 @@
         <!-- title -->
         <div class="text-center space-y-3">
             <h2 class="font-bold text-4xl">Home preference</h2>
-            <p class="text-[#737373] lg:w-5/12 mx-auto">What kind of house do you like? You can tell us. Below are some collections. And fill the form on the right if you like.</p>
+            <p class="text-[#737373] max-w-[400px] mx-auto">Hope you will find the house design you like here. Below are few house designs.</p>
         </div>
         
 
-          <div class="mt-10">
-            <div class="flex flex-col justify-between gap-10 md:flex-row ">
-
-              <!-- Home collection -->
-              <div class="carousel h-[250px] lg:w-7/12  lg:h-[350px] rounded-xl ">
-                <div id="slide1" class="carousel-item relative w-full">
-                  <img
-                    src="./assets/home-1.jpg"
-                    class="w-full" />
-                  <div class="absolute bottom-5 left-5 space-x-5  flex justify-between">
-                    <a href="#slide4" class="btn btn-circle  bg-black text-white border-none">❮</a>
-                    <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❯</a>
-                  </div>
-                </div>
-      
-                
-                <div id="slide2" class="carousel-item relative w-full">
-                  <img
-                    src="./assets/home-2.jpg"
-                    class="w-full" />
-                  <div class="absolute bottom-5 left-5 space-x-5 flex  justify-between">
-                    <a href="#slide1" class="btn btn-circle bg-black text-white border-none">❮</a>
-                    <a href="#slide3" class="btn btn-circle bg-black text-white border-none">❯</a>
-                  </div>
-                </div>
-                <div id="slide3" class="carousel-item relative w-full">
-                  <img
-                    src="./assets/home-3.jpg"
-                    class="w-full" />
-                  <div class="absolute bottom-5 left-5 space-x-5 flex  justify-between">
-                    <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❮</a>
-                    <a href="#slide4" class="btn btn-circle bg-black text-white border-none">❯</a>
-                  </div>
-                </div>
-                <div id="slide4" class="carousel-item relative w-full">
-                  <img
-                    src="./assets/image-5.jpg"
-                    class="w-full" />
-                  <div class="absolute bottom-5 left-5 space-x-5 flex  justify-between">
-                    <a href="#slide3" class="btn btn-circle bg-black text-white border-none">❮</a>
-                    <a href="#slide1" class="btn btn-circle bg-black text-white border-none">❯</a>
-                  </div>
-                </div>
-              </div>
-
-              <!-- font-fild -->
-              <div class="card bg-base-100 h-[250px] lg:w-4/12  lg:h-[350px]  shrink-0 shadow-2xl">
-                <form class="card-body">
-                  <div class="form-control">
-                    <label class="label">
-                      <span class="label-text">Email</span>
-                    </label>
-                    <input type="email" placeholder="email" class="input input-bordered" required />
-                  </div>
-                  <div class="form-control">
-                    <label class="label">
-                      <span class="label-text">Password</span>
-                    </label>
-                    <input type="password" placeholder="password" class="input input-bordered" required />
-                    <label class="label">
-                      <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
-                    </label>
-                  </div>
-                  <div class="form-control mt-6">
-                    <button class="btn btn-primary">Login</button>
-                  </div>
-                </form>
-              </div>
-            </div>
+        <div class="carousel w-full h-[300px] md:h-[400px] mt-10 rounded-3xl">
+          <div id="item1" class="carousel-item w-full">
+            <img
+              src="./assets/home-1.jpg"
+              class="w-full" />
           </div>
-
-
-
-
+          <div id="item2" class="carousel-item w-full">
+            <img
+              src="./assets/home-2.jpg"
+              class="w-full" />
+          </div>
+          <div id="item3" class="carousel-item w-full">
+            <img
+              src="./assets/home-3.jpg"
+              class="w-full" />
+          </div>
+          <div id="item4" class="carousel-item w-full">
+            <img
+              src="./assets/image-5.jpg"
+              class="w-full" />
+          </div>
+        </div>
+        <div class="flex w-full justify-center gap-6 py-5">
+          <a href="#item1" class="px-5 py-3 btn rounded-full bg-light-green">1</a>
+          <a href="#item2" class="px-5 py-3 btn rounded-full bg-light-green">2</a>
+          <a href="#item3" class="px-5 py-3 btn rounded-full bg-light-green">3</a>
+          <a href="#item4" class="px-5 py-3 btn rounded-full bg-light-green">4</a>
+        </div>
     </div>
   </section>
 
